@@ -1,0 +1,77 @@
+.greetings {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    font-family: Mynerve;
+    font-size: 2rem;
+    color: var(--accent);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.greetings_text {
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.greetings__hand {
+    margin-left: 1rem;
+    animation: wave_hand 2s infinite;
+    transform: rotate(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 100px;
+
+}
+
+@keyframes wave_hand {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4.0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .greetings {
+        align-self: center;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .greetings {
+        padding: 0 0 0 0;
+        font-size: 1.3rem;
+        position: relative;
+        bottom: -9rem;
+        z-index: 90;
+    }
+}

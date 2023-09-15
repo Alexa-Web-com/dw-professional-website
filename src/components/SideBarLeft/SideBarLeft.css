@@ -1,0 +1,162 @@
+.sideBarLeft {
+    position: fixed;
+    left: 2rem;
+    bottom: -2rem;
+    right: auto;
+    z-index: 10;
+}
+
+.sideBarLeft__icons_cntr {
+    list-style: none;
+    position: fixed;
+    bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBarLeft__icons_cntr_vertical {
+    display: none;
+}
+
+.sideBarLeft__line {
+    margin-left: 0.8rem;
+}
+
+.sideBarLeft__icon_wrapper {
+    margin-top: 0.6rem;
+}
+
+.sideBarLeft__icon_wrapper:hover,
+.sideBarLeft__icon_wrapper:focus {
+    padding-bottom: 0.05rem;
+    margin-top: 0.55rem;
+}
+
+.sideBarLeft__icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    margin: 0.55rem 0;
+}
+
+.sideBarLeft__icon_github {
+    background-image: url(../../assets/app_logo/github.svg);
+}
+
+.sideBarLeft__icon_github:hover,
+.sideBarLeft__icon_github:focus {
+    background-image: url(../../assets/app_logo/github-colored-white.svg);
+}
+
+.sideBarLeft__icon_linkedin {
+    background-image: url(../../assets/app_logo/linkedin.svg);
+}
+
+.sideBarLeft__icon_linkedin:hover,
+.sideBarLeft__icon_linkedin:focus {
+    background-image: url(../../assets/app_logo/linkedin-colored-white.svg);
+
+}
+
+.sideBarLeft__icon_location {
+    background-image: url(../../assets/app_logo/location.svg);
+}
+
+.sideBarLeft__icon_location:hover,
+.sideBarLeft__icon_location:focus {
+    background-image: url(../../assets/app_logo/location-colored-white.svg);
+}
+
+.sideBarLeft__icon_phone {
+    background-image: url(../../assets/app_logo/phone.svg);
+}
+
+.sideBarLeft__icon_phone:hover,
+.sideBarLeft__icon_phone:focus {
+    background-image: url(../../assets/app_logo/phone-colored-white.svg);
+}
+
+.sideBarLeft__icon_whatsapp {
+    background-image: url(../../assets/app_logo/whatsapp.svg);
+}
+
+.sideBarLeft__icon_whatsapp:hover,
+.sideBarLeft__icon_whatsapp:focus {
+    background-image: url(../../assets/app_logo/whatsapp-colored-white.svg);
+}
+
+.sideBarLeft__icon_telegram {
+    background-image: url(../../assets/app_logo/telegram.svg);
+}
+
+.sideBarLeft__icon_telegram:hover,
+.sideBarLeft__icon_telegram:focus {
+    background-image: url(../../assets/app_logo/telegram-colored-white.svg);
+}
+
+
+@media screen and (max-width: 768px) {
+    .sideBarLeft {
+        left: 1rem;
+    }
+
+    .sideBarLeft__icons_cntr {
+        bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sideBarLeft {
+        position: relative;
+        left: 0;
+        /* bottom: 100vh; */
+        bottom: 0;
+        padding: 0rem 2.5rem 1rem 2.5rem;
+        background-color: var(--dark);
+    }
+
+
+    .sideBarLeft__icons_cntr {
+        position: relative;
+        bottom: 8rem;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .sideBarLeft__line {
+        display: none;
+    }
+
+    .sideBarLeft__icon_wrapper {
+        margin-top: 0.05rem;
+    }
+
+    .sideBarLeft__icon_wrapper:hover,
+    .sideBarLeft__icon_wrapper:focus {
+        padding-bottom: 0.05rem;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-height: 450px) {
+
+    .sideBarLeft__icons_cntr {
+        display: none;
+    }
+
+    .sideBarLeft__icons_cntr_vertical {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        position: fixed;
+        bottom: 1rem;
+    }
+
+    .sideBarLeft__line {
+        display: none
+    }
+
+
+
+}

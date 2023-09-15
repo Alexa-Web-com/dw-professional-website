@@ -1,0 +1,132 @@
+.intro {
+    padding: 20rem 6rem 10rem 6rem;
+}
+
+.intro__hello {
+    color: var(--accent);
+    font-size: var(--fontM);
+    font-family: var(--fonts2)
+}
+
+.intro__hello_mobile {
+    display: none;
+}
+
+.intro__name {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    font-family: Mynerve;
+    display: flex;
+}
+
+.intro__name_fullname {
+    /* text animation */
+    overflow: hidden;
+    white-space: nowrap;
+    margin: auto 0;
+    animation:
+        typing 4s linear;
+}
+
+.intro__name_firstName {
+    display: none;
+}
+
+/* The typing effect */
+@keyframes typing {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+.intro__desc_top {
+    font-size: var(--fontL);
+    margin-bottom: 1rem;
+}
+
+.intro__desc_add {
+    font-weight: 300;
+    max-width: 640px;
+    width: 100%;
+}
+
+.intro__btn {
+    color: var(--accent);
+    font-family: var(--fonts2);
+    background-color: transparent;
+    border: 1px solid var(--accent);
+    border-radius: var(--border-radius);
+    padding: 1.25rem 1.75rem;
+    font-size: var(--fontS);
+    cursor: pointer;
+    margin-top: 4rem;
+}
+
+.intro__btn:hover {
+    background-color: var(--accent-transparent);
+}
+
+
+@media screen and (max-width: 846px) {
+    .intro__hello {
+        display: none;
+    }
+
+    .intro__hello_mobile {
+        display: block;
+        color: var(--accent);
+        font-size: var(--fontS);
+        font-family: var(--fonts2)
+    }
+
+    .intro__name {
+        font-size: 3.5rem;
+    }
+
+    .intro__name_fullname {
+        display: none;
+    }
+
+    .intro__name_firstName {
+        display: block;
+        /* text animation */
+        overflow: hidden;
+        white-space: nowrap;
+        margin: auto 0;
+        animation:
+            typing 2s linear;
+    }
+
+    .intro__desc_top {
+        font-size: 1.5rem;
+    }
+
+    .intro__btn {
+        font-size: var(--fontXS);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro {
+        padding: 15rem 2rem 8rem 2rem;
+    }
+
+    .intro__name {
+        font-size: 3rem;
+    }
+
+    .intro__desc_top {
+        font-size: var(--fontM);
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .intro {
+        padding: 7rem 6rem 10rem 6rem;
+    }
+}

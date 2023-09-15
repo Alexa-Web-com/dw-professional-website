@@ -1,0 +1,11 @@
+.projects__title_cntr {
+    display: flex;
+}
+
+.projects__line {
+    background-color: var(--accent);
+}
+
+.projects__title {
+    color: var(--accent);
+}
