@@ -26,7 +26,7 @@ const SideBarLeft = () => {
             <ul className='sideBarLeft__icons_cntr'>
                 {/* TODO */}
                 <li data-aos={animation} data-aos-duration="2000" className='sideBarLeft__icon_wrapper'>
-                    <a href='https://github.com/Alexa-Web-com'>
+                    <a href='https://github.com/DamianPoland'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_github'></div>
                     </a>
                 </li>
@@ -44,35 +44,27 @@ const SideBarLeft = () => {
                     </a>
                 </li>
                 <li data-aos={animation} data-aos-duration="1400" className='sideBarLeft__icon_wrapper'>
-                    <a href='tel:+48887638906'>
+                    <a href='tel:+48887638907'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_phone'></div>
                     </a>
                 </li>
                 <li data-aos={animation} data-aos-duration="1200" className='sideBarLeft__icon_wrapper'>
-                    <a href='https://wa.me/48887638906'
+                    <a href='https://wa.me/48887638907'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <div className='sideBarLeft__icon sideBarLeft__icon_whatsapp'></div>
                     </a>
                 </li>
-                <li data-aos={animation} data-aos-duration="1000" className='sideBarLeft__icon_wrapper'>
-                    <a href='https://t.me/+48887638906'
-                        target='_blank'
-                        rel='noreferrer'
-                    >
-                        <div className='sideBarLeft__icon sideBarLeft__icon_telegram'></div>
-                    </a>
-                </li>
             </ul>
             <ul className='sideBarLeft__icons_cntr_vertical'>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href='https://github.com/Alexa-Web-com'>
+                    <a href='https://github.com/DamianPoland'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_github'></div>
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href='https://www.linkedin.com/in/aleksandra-wilczynska'>
+                    <a href='https://www.linkedin.com/in/damian-wilczynski'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_linkedin'></div>
                     </a>
                 </li>
@@ -85,24 +77,16 @@ const SideBarLeft = () => {
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href='tel:+48887638906'>
+                    <a href='tel:+48887638907'>
                         <div className='sideBarLeft__icon sideBarLeft__icon_phone'></div>
                     </a>
                 </li>
                 <li className='sideBarLeft__icon_wrapper'>
-                    <a href='https://wa.me/48887638906'
+                    <a href='https://wa.me/48887638907'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <div className='sideBarLeft__icon sideBarLeft__icon_whatsapp'></div>
-                    </a>
-                </li>
-                <li className='sideBarLeft__icon_wrapper'>
-                    <a href='https://t.me/+48887638906'
-                        target='_blank'
-                        rel='noreferrer'
-                    >
-                        <div className='sideBarLeft__icon sideBarLeft__icon_telegram'></div>
                     </a>
                 </li>
             </ul>

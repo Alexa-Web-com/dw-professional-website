@@ -12,9 +12,11 @@ import cypress from '../../assets/skills/cypress.png'
 import redux from '../../assets/skills/redux.png'
 import star from '../../assets/stars/star.svg'
 import star_full from '../../assets/stars/star-full.svg'
+import { stateType } from '../../context/ContextLanguage'
 
-const Skills = () => {
-    const [lang,] = useContext(ContextLanguage)
+
+const Skills: () => JSX.Element = () => {
+    const [lang,] = useContext<stateType>(ContextLanguage)
 
     const skillStars = {
         html: 4,
@@ -27,7 +29,7 @@ const Skills = () => {
         ts: 3,
     }
 
-    const getStars = (starsQuantity) => {
+    const getStars: (starsQuantity: number) => JSX.Element[] = (starsQuantity: number) => {
         return new Array(5).fill("").map((x, index) =>
             <img src={index + 1 > starsQuantity ? star : star_full} alt='star' key={index} />)
     }

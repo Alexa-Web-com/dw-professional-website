@@ -3,9 +3,10 @@ import alexa_pict from '../../assets/pict/damian.png'
 import { DICT } from '../../utils/dict'
 import { useContext } from 'react'
 import { ContextLanguage } from '../../context/ContextLanguage'
+import { stateType } from '../../context/ContextLanguage'
 
-const About = () => {
-    const [lang,] = useContext(ContextLanguage)
+const About: () => JSX.Element = () => {
+    const [lang,] = useContext<stateType>(ContextLanguage)
 
     return (
         <div className='about component' id='about'>

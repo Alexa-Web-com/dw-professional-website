@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import { languages } from "../utils/dict";
 
-type stateType = [state: string, setLang: React.Dispatch<React.SetStateAction<string>>]
+export type stateType = [state: string, setLang: React.Dispatch<React.SetStateAction<string>>]
 
 export const ContextLanguage = createContext<stateType>(['', () => ''])
 

@@ -1,11 +1,11 @@
-.projects__title_cntr {
+.experience__title_cntr {
     display: flex;
 }
 
-.projects__line {
+.experience__line {
     background-color: var(--accent);
 }
 
-.projects__title {
+.experience__title {
     color: var(--accent);
 }

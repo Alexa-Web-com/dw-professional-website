@@ -18,6 +18,7 @@ body {
 
     --accent: rgb(236, 204, 158);
     --accent-transparent: rgba(236, 204, 158, 0.2);
+    --secondary: rgb(150, 118, 86);
     --border-radius: 5px;
 
     --fonts2: Inconsolata;

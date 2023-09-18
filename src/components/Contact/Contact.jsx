@@ -138,7 +138,7 @@ const Contact = () => {
                                         name="message" />
                                     {!isUserMessageValid &&
                                         <p className='contact__form_el_errMessage'>{DICT[lang].contactMessageInvalid}</p>}
-                                    <input type='hidden' name="page" value="Alexa-Web.com" ></input>
+                                    <input type='hidden' name="page" value="damianwilczynski.com" ></input>
                                     <button
                                         className={userName && userEmail && userMessage ? 'contact__form_send_btn' : 'contact__form_send_btn_error'}
                                         type='submit'

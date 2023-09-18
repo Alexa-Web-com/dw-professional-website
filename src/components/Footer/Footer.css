@@ -16,6 +16,10 @@
     color: white;
 }
 
+.footer_logo {
+    margin-left: 0.5rem;
+}
+
 .footer_owner {
     padding-left: 0.5rem;
 }
