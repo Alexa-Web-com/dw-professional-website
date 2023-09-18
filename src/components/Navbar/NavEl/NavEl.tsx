@@ -4,7 +4,12 @@ import { useContext } from 'react'
 import { ContextLanguage } from '../../../context/ContextLanguage'
 import { scroll } from '../../../utils/scroll'
 
-const NavEl = (props) => {
+interface INavElProps {
+    isHamburgerActive: boolean;
+    setIsHamburgerActive: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+const NavEl = (props: INavElProps) => {
     const [lang,] = useContext(ContextLanguage)
 
     return (
@@ -17,7 +22,7 @@ const NavEl = (props) => {
                 onClick={() => scroll('skills')}
             >{DICT[lang].navbarSkills}</div>
             <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
-                onClick={() => scroll('projects')}
+                onClick={() => scroll('experience')}
             >{DICT[lang].navbarExperience}</div>
             <div className={props.isHamburgerActive ? 'navbar__el_ham_active' : 'navbar__el'}
                 onClick={() => scroll('contact')}

@@ -1,7 +1,7 @@
 import './Footer.css'
-import logoAlexaWeb from '../../assets/logo.png'
+import logoDW from '../../assets/logo.png'
 
-const Footer = () => {
+const Footer: () => JSX.Element = () => {
     return (
         <div className='footer'>
             <p>Copyright © 2023 </p>
@@ -11,6 +11,7 @@ const Footer = () => {
                 rel='noreferrer'
                 className='footer_link'
             >
+                <img src={logoDW} alt='owner logo' className='footer_logo' width='15px' />
                 <p className='footer_owner'>Damian Wilczyński</p>
             </a>
         </div>

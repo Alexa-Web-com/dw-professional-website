@@ -28,7 +28,7 @@ const SideBarRight = () => {
     return (
         <div className='sideBarRight'>
             <div data-aos={animation} data-aos-duration={duration} className='sideBarRight__email_wrapper'>
-                <a href='mailto:info@alexa-web.com?subject=Customer Request'
+                <a href='mailto:damian.wilczynski.pl@gmail.com?subject=Customer Request'
                     className="sideBarRight__email"
                     target='_blank'
                     rel='noreferrer'

@@ -1,11 +1,11 @@
 import './Intro.css'
 import { DICT } from '../../utils/dict'
 import { useContext } from 'react'
-import { ContextLanguage } from '../../context/ContextLanguage'
+import { ContextLanguage, stateType } from '../../context/ContextLanguage'
 import { scroll } from '../../utils/scroll'
 
-const Intro = () => {
-    const [lang,] = useContext(ContextLanguage)
+const Intro: () => JSX.Element = () => {
+    const [lang,] = useContext<stateType>(ContextLanguage)
 
     return (
         <div className='intro component' id='intro'>
