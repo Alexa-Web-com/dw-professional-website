@@ -22,7 +22,7 @@ const Intro: () => JSX.Element = () => {
             <p className='intro__desc_top'>{DICT[lang].introDescTopOne} <span style={{ color: 'var(--accent)' }}>{DICT[lang].introDescTopTwo}</span>{DICT[lang].aboutDescTopTree}</p>
             <p className='intro__desc_add content'>{DICT[lang].introDescAdd}</p>
             <button className='intro__btn'
-                onClick={() => scroll('projects')}>{DICT[lang].introBtn}</button>
+                onClick={() => scroll('experience')}>{DICT[lang].introBtn}</button>
         </div>
 
     )
