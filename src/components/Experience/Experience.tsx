@@ -19,7 +19,7 @@ const Experience: () => JSX.Element = () => {
             company: "Nest Bank S.A.",
             jobTitle: DICT[lang].experiencePositionNest as string,
             desc: DICT[lang].experienceDutiesNest as string[],
-            technologies: ["React", "JavaScript", "TypeScript", "Material UI", "React Query"],
+            technologies: ["React", "JavaScript", "TypeScript", "Redux", "Material UI", "React Query", "Git", "Cypress"],
             dates: DICT[lang].experienceDatesNest as string,
         },
         {
@@ -27,7 +27,7 @@ const Experience: () => JSX.Element = () => {
             company: "AIC S.A.",
             jobTitle: DICT[lang].experiencePositionAic as string,
             desc: DICT[lang].experienceDutiesAic as string[],
-            technologies: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Solidity", "Web3"],
+            technologies: ["React", "JavaScript", "TypeScript", "Redux", "Git", "Cypress", "Solidity", "Web3"],
             dates: DICT[lang].experienceDatesAic as string,
         },
         {
@@ -35,7 +35,7 @@ const Experience: () => JSX.Element = () => {
             company: "Studio-www",
             jobTitle: DICT[lang].experiencePositionStudioWww as string,
             desc: DICT[lang].experienceDutiesStudioWww as string[],
-            technologies: ["React", "JavaScript", "HTML5", "CSS3", "GCP", "Firebase"],
+            technologies: ["React", "JavaScript", "Java", "Swift", "GCP", "Firebase", "Git",],
             dates: DICT[lang].experienceDatesStudioWww as string,
         },
         {

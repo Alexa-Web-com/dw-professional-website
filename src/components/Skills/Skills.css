@@ -21,9 +21,10 @@
 }
 
 .skills_tools_part {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     padding-bottom: 1rem;
+    width: 100%;
 }
 
 .skills__tool_cntr {
@@ -67,7 +68,7 @@
     }
 
     .skills_tools_part {
-        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr);
     }
 
 
@@ -87,7 +88,7 @@
     }
 
     .skills_tools_part {
-        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -99,5 +100,9 @@
     .skills__tools__cntr {
         flex-direction: column;
         margin: 0 0 0 0;
+    }
+
+    .skills_tools_part {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

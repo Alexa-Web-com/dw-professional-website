@@ -7,9 +7,13 @@ import css from '../../assets/skills/css.png'
 import js from '../../assets/skills/js.png'
 import react_ from '../../assets/skills/react.png'
 import ts from '../../assets/skills/ts.png'
-import git from '../../assets/skills/git.jpg'
+import git from '../../assets/skills/git.png'
 import cypress from '../../assets/skills/cypress.png'
 import redux from '../../assets/skills/redux.png'
+import java from '../../assets/skills/java.png'
+import mui from '../../assets/skills/mui.png'
+import swift from '../../assets/skills/swift.png'
+import solidity from '../../assets/skills/solidity.png'
 import star from '../../assets/stars/star.svg'
 import star_full from '../../assets/stars/star-full.svg'
 import { stateType } from '../../context/ContextLanguage'
@@ -19,14 +23,18 @@ const Skills: () => JSX.Element = () => {
     const [lang,] = useContext<stateType>(ContextLanguage)
 
     const skillStars = {
+        react: 4,
+        js: 4,
+        ts: 4,
+        redux: 4,
         html: 4,
         css: 4,
-        js: 4,
-        react: 4,
-        redux: 3,
-        git: 2,
-        cypress: 2,
-        ts: 3,
+        git: 4,
+        cypress: 3,
+        mui: 3,
+        solidity: 2,
+        java: 2,
+        swift: 1,
     }
 
     const getStars: (starsQuantity: number) => JSX.Element[] = (starsQuantity: number) => {
@@ -80,8 +88,6 @@ const Skills: () => JSX.Element = () => {
                                 {getStars(skillStars.redux)}
                             </div>
                         </div>
-                    </div>
-                    <div className='skills_tools_part'>
                         <div className='skills__tool_cntr'>
                             <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
                                 <img className='skills__img' src={html} alt='html5' />
@@ -116,6 +122,42 @@ const Skills: () => JSX.Element = () => {
                             <p className='skills__tool_desc'>{DICT[lang].skills_cypress}</p>
                             <div>
                                 {getStars(skillStars.cypress)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={mui} alt='mui' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_mui}</p>
+                            <div>
+                                {getStars(skillStars.mui)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={solidity} alt='solidity' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_solidity}</p>
+                            <div>
+                                {getStars(skillStars.solidity)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={java} alt='java' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_java}</p>
+                            <div>
+                                {getStars(skillStars.java)}
+                            </div>
+                        </div>
+                        <div className='skills__tool_cntr'>
+                            <figure data-aos="zoom-in" data-aos-duration="1000" className='skills__tools__figure'>
+                                <img className='skills__img' src={swift} alt='swift' />
+                            </figure>
+                            <p className='skills__tool_desc'>{DICT[lang].skills_swift}</p>
+                            <div>
+                                {getStars(skillStars.swift)}
                             </div>
                         </div>
                     </div>
