@@ -1,5 +1,5 @@
 .intro {
-    padding: 20rem 6rem 10rem 6rem;
+    padding: 20rem 8rem 10rem 8rem;
 }
 
 .intro__hello {
@@ -53,6 +53,7 @@
     font-weight: 300;
     max-width: 640px;
     width: 100%;
+    line-height: 1.6rem;
 }
 
 .intro__btn {
