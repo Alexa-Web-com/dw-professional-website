@@ -11,7 +11,6 @@ body {
 }
 
 :root {
-    /* TODO */
     --dark: rgb(10, 10, 10);
     --lightdark: rgb(86, 86, 86);
     --bright: rgb(108, 108, 108);

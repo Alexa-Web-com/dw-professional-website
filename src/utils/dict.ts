@@ -17,14 +17,14 @@ export const DICT: IDict = {
         introDescTopOne: "I'm a ",
         introDescTopTwo: "Front-end Developer ",
         introDescTopTree: "based in Gdynia, Poland.",
-        introDescAdd: "As a programmer, I design appealing and functional web applications. I constantly keep up with the latest trends and technologies in the field of front-end development to ensure that my projects are always modern and in line with best practices.",
+        introDescAdd: "As a programmer, I design aesthetic and functional web applications. I constantly follow the latest trends and technologies in the front-end field to ensure that my projects are always modern and in line with best practices.",
         introBtn: "My experience",
 
         aboutAttributeOne: "Commercial experience as a front-end developer",
         aboutAttributeTwo: "Very good knowledge of React, JavaScript and TypeScript",
         aboutAttributeThree: "Experience in working with the GIT version control",
         aboutAttributeFour: "Practical ability to apply the principles of DRY, SOLID and KISS",
-        aboutAttributeFive: "Experience working with agile (Kanban i Scrum)",
+        aboutAttributeFive: "Experience working with Agile (Kanban i Scrum)",
         aboutAttributeSix: "Knowledge of English at B2/C1 level",
         aboutAttributeSeven: "Master of Science in Gdańsk University of Technology.",
 
@@ -51,7 +51,7 @@ export const DICT: IDict = {
         experienceDatesAic: "07/2021 - 10/2022",
 
         experiencePositionStudioWww: "FRONT-END DEVELOPER",
-        experienceDutiesStudioWww: ["development of web applications (JavaScript, React)", "website implementation", "mobile applications development (Android & iOS)", "establishing new commercial connections, acquiring new customers"],
+        experienceDutiesStudioWww: ["creating and developing web applications (JavaScript, React)", "website implementation", "mobile applications development (Java, Swift)", "establishing contacts and acquiring new customers"],
         experienceDatesStudioWww: "06/2019 - 06/2021",
 
 
@@ -98,7 +98,7 @@ export const DICT: IDict = {
         aboutAttributeTwo: "Bardzo dobra znajomość React, JavaScript i TypeScript",
         aboutAttributeThree: "Doświadczenie w pracy z systemem kontroli wersji GIT",
         aboutAttributeFour: "Praktyczna umiejętność stosowania zasad DRY, SOLID i KISS",
-        aboutAttributeFive: "Doświadczenie w pracy z agile (Kanban i Scrum)",
+        aboutAttributeFive: "Doświadczenie w pracy z Agile (Kanban i Scrum)",
         aboutAttributeSix: "Znajomość języka angielskiego na poziomie B2/C1",
         aboutAttributeSeven: "Absolwent Politechniki Gdańskiej z tytułem mgr inż.",
 
@@ -124,7 +124,7 @@ export const DICT: IDict = {
         experienceDatesAic: "07/2021 - 10/2022",
 
         experiencePositionStudioWww: "FRONT-END DEVELOPER",
-        experienceDutiesStudioWww: ["tworzenie i rozwijanie aplikacji webowych (JavaScript, React)", "implementacja stron internetowych", "tworzenie aplikacji mobilnych (Android i iOS)", "nawiązywanie kontaktów i pozyskiwanie nowych klientów"],
+        experienceDutiesStudioWww: ["tworzenie i rozwijanie aplikacji webowych (JavaScript, React)", "implementacja stron internetowych", "tworzenie aplikacji mobilnych (Java, Swift)", "nawiązywanie kontaktów i pozyskiwanie nowych klientów"],
         experienceDatesStudioWww: "06/2019 - 06/2021",
 
         experiencePositionTeldust: "KIEROWNIK PROJEKTU/ KONSTRUKTOR",
