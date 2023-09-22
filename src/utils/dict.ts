@@ -43,15 +43,15 @@ export const DICT: IDict = {
         skills_swift: "Swift",
 
         experiencePositionNest: "FRONT-END DEVELOPER",
-        experienceDutiesNest: ["development of efficient and scalable apps (TypeScript, React)", "creating and deploying new features in web apps", "implementation of automatic tests (Cypress)"],
+        experienceDutiesNest: ["development of efficient web applications (TypeScript, React)", "creating and improving new functionalities", "implementation of automatic tests (Cypress)", "preparation of technical documentation (Confluence)"],
         experienceDatesNest: "10/2022 - present",
 
         experiencePositionAic: "FRONT-END DEVELOPER",
-        experienceDutiesAic: ["development and maintaining web applications (TypeScript, React)", "creating new functionalities of web applications", "automatic tests implementation (Cypress)"],
+        experienceDutiesAic: ["developing and maintaining web applications (TypeScript, React)", "creating and improving new functionalities", "performance optimization", "automatic tests implementation (Cypress)"],
         experienceDatesAic: "07/2021 - 10/2022",
 
         experiencePositionStudioWww: "FRONT-END DEVELOPER",
-        experienceDutiesStudioWww: ["creating and developing web applications (JavaScript, React)", "website implementation", "mobile applications development (Java, Swift)", "establishing contacts and acquiring new customers"],
+        experienceDutiesStudioWww: ["creating and developing web applications (JavaScript, React)", "user-friendly websites implementation", "mobile applications development (Java, Swift)", "establishing contacts and acquiring new customers"],
         experienceDatesStudioWww: "06/2019 - 06/2021",
 
 
@@ -116,11 +116,11 @@ export const DICT: IDict = {
         skills_swift: "Swift",
 
         experiencePositionNest: "FRONT-END DEVELOPER",
-        experienceDutiesNest: ["tworzenie wydajnych i skalowalnych aplikacji (TypeScript, React)", "opracowywanie i wdrażanie nowych funkcjonalności", "implementacja testów automatycznych (Cypress)"],
+        experienceDutiesNest: ["tworzenie wydajnych aplikacji webowych (TypeScript, React)", "rozwijanie i udoskonalanie nowych funkcjonalności", "implementacja testów automatycznych (Cypress)", "opracowywanie dokumentacji technicznej (Confluence)"],
         experienceDatesNest: "10/2022 - obecnie",
 
         experiencePositionAic: "FRONT-END DEVELOPER",
-        experienceDutiesAic: ["tworzenie i utrzymywanie aplikacji webowych (TypeScript, React)", "rozwijanie nowych funkcjonalności aplikacji webowych", "opracowywanie testów automatycznych (Cypress)"],
+        experienceDutiesAic: ["tworzenie i utrzymywanie aplikacji webowych (TypeScript, React)", "rozwijanie i udoskonalanie nowych funkcjonalności", "optymalizacja wydajnościowa", "opracowywanie testów automatycznych (Cypress)"],
         experienceDatesAic: "07/2021 - 10/2022",
 
         experiencePositionStudioWww: "FRONT-END DEVELOPER",
