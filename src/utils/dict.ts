@@ -24,7 +24,7 @@ export const DICT: IDict = {
         aboutAttributeTwo: "Very good knowledge of React, JavaScript and TypeScript",
         aboutAttributeThree: "Experience in working with the GIT version control",
         aboutAttributeFour: "Practical ability to apply the principles of DRY, SOLID and KISS",
-        aboutAttributeFive: "Experience working with Agile (Kanban i Scrum)",
+        aboutAttributeFive: "Experience working with Agile (Kanban and Scrum)",
         aboutAttributeSix: "Knowledge of English at B2/C1 level",
         aboutAttributeSeven: "Master of Science in Gdańsk University of Technology.",
 
